@@ -268,7 +268,7 @@ API used : Todo
 
 # Resources <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
-Datasets used for populating the Database : [Kaggle Resume Dataset](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset), [Kaggle Linkedin Profile Dataset](https://www.kaggle.com/datasets/heet9022/linkedin-dataset?rvi=1)
+Datasets used for populating the Database : [Kaggle Resume Dataset](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset), [Kaggle Linkedin Profile Dataset](https://www.kaggle.com/datasets/heet9022/linkedin-dataset?rvi=1), [Kaggle Glassdoor Jobs](https://www.kaggle.com/datasets/andresionek/data-jobs-listings-glassdoor)
 
 Miro : [Team retrospective and brainstorming board](https://miro.com/app/board/uXjVMkJzhAg=/)
 
