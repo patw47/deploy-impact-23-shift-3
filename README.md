@@ -30,22 +30,22 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-# Problem Statement <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Problem Statement 
 
 Despite the rising numbers of qualified individuals from underrepresented backgrounds in tech, there remains a disparity in their representation in internships and entry-level positions. These individuals often struggle to find suitable employers, and conversely, many tech companies find it challenging to locate such skilled talent
 
-# Opportunity <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Opportunity 
 
 By joining forces with non-profit organizations championing the cause of diversifying the tech talent pool, SHIFT offers an unique opportunity. It aims to streamline the recruitment process for both companies and prospective employees by creating an exclusive platform tailored for this niche.
 
-# Combat Biais <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Combat Biais 
 
 Data Science : Todo explain matching algorithm
 
 Frontend : Todo explain UI
 
 
-# Contributors <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Contributors 
 
 - Martina Babinska, Frontend - [Github](https://github.com/Corrigan14) - [Linkedin](https://www.linkedin.com/in/martina-babinska-32369a140/)
 - Patricia Wintrebert, Data Science - [Github](https://github.com/patw47) - [Linkedin](https://www.linkedin.com/in/patriciawintrebert/)
@@ -57,7 +57,7 @@ Frontend : Todo explain UI
 
 For further development please contact XX
 
-# Tech Stack <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Tech Stack 
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -71,11 +71,11 @@ For further development please contact XX
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 
- # Files Structure <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+ # Files Structure 
 
  To do
 
- # Frontend <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+ # Frontend 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with Material UI installed.
 
@@ -166,8 +166,9 @@ gcloud run deploy nextjsapp --image gcr.io/enter-400508/nextjsapp  --project ent
 
 To do 
 
-# Backend API <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
-## Techstack
+# Backend API 
+
+## Tech stack
 - [Python](https://www.python.org/)
   - [Django Rest Framework](https://www.django-rest-framework.org/)
   - [spaCy](https://spacy.io/)
@@ -266,7 +267,7 @@ Library used: Todo
 API used : Todo
 
 
-# Resources <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Resources 
 
 Datasets used for populating the Database : [Kaggle Resume Dataset](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset), [Kaggle Linkedin Profile Dataset](https://www.kaggle.com/datasets/heet9022/linkedin-dataset?rvi=1), [Kaggle Glassdoor Jobs](https://www.kaggle.com/datasets/andresionek/data-jobs-listings-glassdoor)
 
