@@ -1,4 +1,4 @@
-![Shift Enter](https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/Welcome%20to%20Shift%20%2B%20Enter.gif)
+![Shift Enter](https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/Welcome%20to%20Shift%20%2B%20Enter.gif)
 
 # SHIFT initative
 
@@ -30,19 +30,19 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-# Problem Statement <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Problem Statement <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
 Despite the rising numbers of qualified individuals from underrepresented backgrounds in tech, there remains a disparity in their representation in internships and entry-level positions. These individuals often struggle to find suitable employers, and conversely, many tech companies find it challenging to locate such skilled talent
 
-# Opportunity <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Opportunity <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
 By joining forces with non-profit organizations championing the cause of diversifying the tech talent pool, SHIFT offers an unique opportunity. It aims to streamline the recruitment process for both companies and prospective employees by creating an exclusive platform tailored for this niche.
 
-# Combat Biais <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Combat Biais <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
 To do 
 
-# Contributors <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Contributors <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 - Martina Babinska, Frontend - [Github](#https://github.com/Corrigan14) - [Linkedin](#https://www.linkedin.com/in/martina-babinska-32369a140/)
 - Patricia Wintrebert, Data Science - [Github](#https://github.com/patw47) - [Linkedin](#https://www.linkedin.com/in/patriciawintrebert/)
 - Janice Shaw, Frontend - [Github](#https://github.com/JaniceShaw) - [Linkedin](#https://www.linkedin.com/in/janice-shaw/)  
@@ -53,7 +53,7 @@ To do
 
 For further development please contact XX
 
-# Tech Stack <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Tech Stack <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -61,9 +61,9 @@ For further development please contact XX
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 
- # Files Structure <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+ # Files Structure <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
- # Frontend <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+ # Frontend <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.pngg" alt="Shift Enter" width="20px;"></span>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with Material UI installed.
 
@@ -154,7 +154,7 @@ gcloud run deploy nextjsapp --image gcr.io/enter-400508/nextjsapp  --project ent
 
 To do 
 
-# Backend API <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Backend API <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 ## Techstack
 - [Python](https://www.python.org/)
   - [Django Rest Framework](https://www.django-rest-framework.org/)
@@ -252,7 +252,7 @@ Besides the aforementioned features, the following are all wokring at the time o
 to do
 
 
-# Resources <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+# Resources <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
 Datasets used for populating the Database : [Kaggle Resume Dataset](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset)
 
@@ -261,4 +261,4 @@ Miro : [Team retrospective and brainstorming board](https://miro.com/app/board/u
 Pitch : Presentation Pitch 
 
 
-<div style="text-align:center;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/shift%20enter.png" alt="Shift Enter"></div>
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter"></div>
