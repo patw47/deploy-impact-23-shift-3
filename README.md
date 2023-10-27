@@ -16,16 +16,16 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
 - [Tech Stack](#tech-stack)
 - [Files Structure](#files-structure)
 - [Frontend](#frontend)
-  - [Project Description](#Project-Description)
-  - [How to Use](#How-to-Use)
-  - [Testing](#Testing)
+  - [Project Description](#project-description)
+  - [How to Use](#how-to-use)
+  - [Testing](#testing)
   - [Deployment](#deployement)
-  - [UI/UX](#uiux)
+  - [UI/UX](#ui/ux)
 - [Backend](#backend)
   - [Getting Started](#getting-started)
-  - [Setup the CI/CD](#SetuptheCI/CD)
-  - [Files and notable features](#Filesandnotablefeatures)
-  - [Data Science](#datascience)
+  - [Setup the CI/CD](#setup-the-CI/CD)
+  - [Files and notable features](#files-and-notable-features)
+  - [Data Science](#data-science)
 - [Resources](#resources)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -47,13 +47,13 @@ Frontend : Todo explain UI
 
 # Contributors <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
-- Martina Babinska, Frontend - [Github](#https://github.com/Corrigan14) - [Linkedin](#https://www.linkedin.com/in/martina-babinska-32369a140/)
-- Patricia Wintrebert, Data Science - [Github](#https://github.com/patw47) - [Linkedin](#https://www.linkedin.com/in/patriciawintrebert/)
-- Janice Shaw, Frontend - [Github](#https://github.com/JaniceShaw) - [Linkedin](#https://www.linkedin.com/in/janice-shaw/)  
-- Tanya Golubev, Data Science - [Github](#https://github.com/golubevtanya) - [Linkedin](#https://www.linkedin.com/in/golubevtanya/)
-- Diana Campos - UI/UX - [Linkedin](#https://www.linkedin.com/in/dikmpos105/)
-- Guilherme Kruger, Backend - [Github](#https://github.com/krugergui) 
-- Paras Shah, Project Management [Linkedin](#https://www.linkedin.com/in/pshah78/)
+- Martina Babinska, Frontend - [Github](https://github.com/Corrigan14) - [Linkedin](https://www.linkedin.com/in/martina-babinska-32369a140/)
+- Patricia Wintrebert, Data Science - [Github](https://github.com/patw47) - [Linkedin](https://www.linkedin.com/in/patriciawintrebert/)
+- Janice Shaw, Frontend - [Github](https://github.com/JaniceShaw) - [Linkedin](https://www.linkedin.com/in/janice-shaw/)  
+- Tanya Golubev, Data Science - [Github](https://github.com/golubevtanya) - [Linkedin](https://www.linkedin.com/in/golubevtanya/)
+- Diana Campos - UI/UX - [Linkedin](https://www.linkedin.com/in/dikmpos105/)
+- Guilherme Kruger, Backend - [Github](https://github.com/krugergui) 
+- Paras Shah, Project Management [Linkedin](https://www.linkedin.com/in/pshah78/)
 
 For further development please contact XX
 
@@ -268,7 +268,7 @@ API used : Todo
 
 # Resources <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
-Datasets used for populating the Database : [Kaggle Resume Dataset](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset), [Kaggle Linkedin Profile Dataset](#https://www.kaggle.com/datasets/heet9022/linkedin-dataset?rvi=1)
+Datasets used for populating the Database : [Kaggle Resume Dataset](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset), [Kaggle Linkedin Profile Dataset](https://www.kaggle.com/datasets/heet9022/linkedin-dataset?rvi=1)
 
 Miro : [Team retrospective and brainstorming board](https://miro.com/app/board/uXjVMkJzhAg=/)
 
