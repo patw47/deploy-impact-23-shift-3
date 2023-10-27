@@ -9,20 +9,20 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
 
 ## Table of Contents
 
-- [Problem Statement](#ProblemStatement)
-- [Opportunity](#Opportunity)
-- [Combat Biais](#CombatBiais)
-- [Contributors](#Contributors)
-- [Tech Stack](#TechStack)
-- [Files Structure](#FilesStructure)
+- [Problem Statement](#problem-statement)
+- [Opportunity](#opportunity)
+- [Combat Biais](#combat-biais)
+- [Contributors](#contributors)
+- [Tech Stack](#tech-stack)
+- [Files Structure](#files-structure)
 - [Frontend](#frontend)
-  - [Project Description](#ProjectDescription)
-  - [How to Use](#HowtoUse)
+  - [Project Description](#Project-Description)
+  - [How to Use](#How-to-Use)
   - [Testing](#Testing)
   - [Deployment](#deployement)
   - [UI/UX](#uiux)
 - [Backend](#backend)
-  - [Getting Started](#GettingStarted)
+  - [Getting Started](#getting-started)
   - [Setup the CI/CD](#SetuptheCI/CD)
   - [Files and notable features](#Filesandnotablefeatures)
   - [Data Science](#datascience)
@@ -40,9 +40,13 @@ By joining forces with non-profit organizations championing the cause of diversi
 
 # Combat Biais <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
-To do 
+Data Science : Todo explain matching algorithm
+
+Frontend : Todo explain UI
+
 
 # Contributors <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
+
 - Martina Babinska, Frontend - [Github](#https://github.com/Corrigan14) - [Linkedin](#https://www.linkedin.com/in/martina-babinska-32369a140/)
 - Patricia Wintrebert, Data Science - [Github](#https://github.com/patw47) - [Linkedin](#https://www.linkedin.com/in/patriciawintrebert/)
 - Janice Shaw, Frontend - [Github](#https://github.com/JaniceShaw) - [Linkedin](#https://www.linkedin.com/in/janice-shaw/)  
@@ -57,13 +61,21 @@ For further development please contact XX
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 
  # Files Structure <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
- # Frontend <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.pngg" alt="Shift Enter" width="20px;"></span>
+ To do
+
+ # Frontend <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with Material UI installed.
 
@@ -249,12 +261,14 @@ Besides the aforementioned features, the following are all wokring at the time o
 - Production ready load balancer - nginx
 
 ## Data Science
-to do
+Library used: Todo
+
+API used : Todo
 
 
 # Resources <span style="text-align:left;"><img src="https://raw.githubusercontent.com/patw47/deploy-impact-23-shift-3/main/assets/shift%20enter.png" alt="Shift Enter" width="20px;"></span>
 
-Datasets used for populating the Database : [Kaggle Resume Dataset](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset)
+Datasets used for populating the Database : [Kaggle Resume Dataset](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset), [Kaggle Linkedin Profile Dataset](#https://www.kaggle.com/datasets/heet9022/linkedin-dataset?rvi=1)
 
 Miro : [Team retrospective and brainstorming board](https://miro.com/app/board/uXjVMkJzhAg=/)
 
