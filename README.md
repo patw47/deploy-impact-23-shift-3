@@ -26,6 +26,7 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
   - [Setup the CI/CD](#setup-the-CI/CD)
   - [Files and notable features](#files-and-notable-features)
   - [Data Science](#data-science)
+- [Roadmap](#roadmap)
 - [Resources](#resources)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -38,12 +39,30 @@ Despite the rising numbers of qualified individuals from underrepresented backgr
 
 By joining forces with non-profit organizations championing the cause of diversifying the tech talent pool, SHIFT offers an unique opportunity. It aims to streamline the recruitment process for both companies and prospective employees by creating an exclusive platform tailored for this niche.
 
-# Combat Biais 
+# Combat Biais ! 
 
-Data Science : Todo explain matching algorithm
+## Data Science 
 
-Frontend : Todo explain UI
+Our Matching algorithm combines different methods (Explained in details in the [backend](#backend) section).
 
+The concept is based on extracting the soft and hard skills entered by the candidate, which are then directly compared with the soft and hard skills requested in the job offer. 
+We then perform a semantic comparison of the free text of the candidate's profile (Values, experience) with the text of the job advert.
+Finally, we average the scores obtained when comparing the texts with the following weightings: 
+- 20% soft skills
+- 20% hard skills
+- 60% free text
+
+Secondly, in an effort to promote under-represented groups, we have chosen to systematically include in the top 10 results people who describe themselves as female or gender-neutral, as well as people of immigrant background.  
+
+The results are displayed in descending order, from the most important match (displayed as a percentage) to the least important.
+
+## UI/UX & frontend
+
+We have chosen to blur out information that could lead to bias, such as the profile photo or place of study, so that companies can appreciate the skills and values that are important to them when recruiting. 
+
+However, we wanted to give companies the freedom to 'unblur' this information if they wished. In fact, we didn't want to block all access to sensitive information, because we assume that the platform has an educational role above all, and its role is simply to enable companies to become aware of any biases they might have, in a fun way. 
+
+We have therefore designed informative tooltips for these functions to challenge users and make them think about their actions on the platform.
 
 # Contributors 
 
@@ -164,7 +183,58 @@ gcloud run deploy nextjsapp --image gcr.io/enter-400508/nextjsapp  --project ent
 ```
 ## UI/UX
 
-To do 
+### Overview
+This Figma Prototype is designed to showcase the flows that have been designed. You will see the high fidelity mockups, the primary functions of the flow, and future flows for implementation.
+
+### How to Use
+1. **Access the Prototype**: 
+You can interact with the prototype at the following link: 
+https://www.figma.com/proto/qzRo0T1FIRIp2FkBZtXKey/SHIFT-UI?page-id=0%3A1&type=design&node-id=65-514&viewport=817%2C-4082%2C0.16&t=vVdNABqel4mhStHB-1&scaling=min-zoom&starting-point-node-id=65%3A514&show-proto-sidebar=1&mode=design
+   
+2. **Navigate Through the Prototype**: 
+You have a left bar and a top bar. 
+1.	The left bar will help you to move through each designed flow. They are organized by:
+⁃	A. Login
+⁃	B. Company
+⁃	C. Candidate
+⁃	D. Association
+2.	The top bar gives you the option of how to preview the screen. Please go to Options > Fit width.
+3.	To go to the next flow, select the next title in the left bar.
+4.	If you want to go back again and restart the whole flow, press “R”.
+
+3. **Feedback and Comments**: 
+⁃	You must be logged into Figma to comment. 
+⁃	By typing or pressing “C” you can comment anything you want to highlight or give us feedback. 
+⁃	The comments will remain in the file unless you click "Resolve" in the right bar that appears after you add a comment.
+
+
+### Prototype Structure
+As it is listed in the left pane. The prototype is organized by the following flows:
+⁃	A. Login (general sign-in and log-in flow)
+⁃	B. Company - Candidate list
+⁃	B. Company - Setup Profile
+⁃	B. Company - Job post 
+⁃	B. Company - Job list section
+⁃	B. Company - Candidate list
+⁃	C. Candidate - Setup profile 
+⁃	C. Candidate - Job list
+⁃	D. Association - Invite candidates
+
+
+### Key Features
+Not every button or interaction is prototyped. Therefore, we have added some videos in the file to have the full explanation. By clicking on the screen, you can see hints highlighted in blue of what is clickable.
+
+You can see here in the following link the recorded videos with each flow designed:
+https://drive.google.com/drive/folders/1TGAIahEZZUoSioJJA6W8hqKnIHvJiBja?usp=drive_link
+
+
+### Contact Information
+Diana Campos
+dianaalkampos@gmail.com
+
+### Licensing
+There is no restriction to interact with the prototype, all tho this is an excuse example for the Deploy(impact) 2023 program.
+
 
 # Backend API 
 
@@ -262,10 +332,46 @@ Besides the aforementioned features, the following are all wokring at the time o
 - Production ready load balancer - nginx
 
 ## Data Science
-Library used: Todo
 
-API used : Todo
+Our matching algorithm is based on a careful evaluation of candidates, jobs and required skills. Here's how it works:
 
+Skills Extraction: We extract the "soft" and "hard" skills of candidates, as well as those required in job descriptions.
+To do this, we use the [Skillner](https://skillner.vercel.app/) NLP module
+
+Language Extractions : We use the [languages ISO list](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+
+Free text processing: The free text part of the applications is transformed using the powerful HuggingFace library. We use a pre-trained NLP model ([Hugging Face Transformers](https://huggingface.co/)) to tokenize and vectorize these texts, enabling us to assess semantic similarity.
+
+Similarity measurement: We use a similarity indicator called Cosine Similarity to compare vectors of skills and job descriptions. It is a metric used to measure how similar two vectors are in a multidimensional space. It is often used in natural language processing, information retrieval, and machine learning for tasks such as document similarity, text clustering, and recommendation systems.
+
+Cosine similarity is particularly useful when dealing with high-dimensional data, like text documents, where the magnitude of the vectors can vary significantly. It measures the cosine of the angle between two vectors and ranges from -1 to 1:
+
+If the cosine similarity is 1, it means the two vectors are identical in direction, i.e., they point in the same direction in the vector space.
+If the cosine similarity is 0, it means the vectors are orthogonal (90 degrees apart), indicating no similarity.
+If the cosine similarity is -1, it means the two vectors are diametrically opposed, i.e., they point in opposite directions.
+
+### Data Processing Notebooks
+
+This folder contains the code that was used for parsing the datasets with job descriptions and candidates' profiles.
+
+One can download the dataset for candidates from [Kaggle](https://www.kaggle.com/datasets/heet9022/linkedin-dataset) and the dataset with jobs from [Kaggle](https://www.kaggle.com/datasets/andresionek/data-jobs-listings-glassdoor) and add the path to the datasets to the respective .yml files.
+
+The following logical steps are used to clean the datasets:
+
+- Filter tech-related, Swiss-based, entry-level items
+- For job descriptions: use only descriptions written in English using [langid](https://github.com/saffsd/langid.py) package
+- Extract soft and hard skills using [SkillNer](https://skillner.vercel.app/)
+- Extract languages using [language ISO list](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+- Reorganize the columns (rename, drop ones not to be uploaded to the database, reset the index)
+
+# Roadmap
+
+The future developments that we would like to implement : 
+- More information for companies : Promote more inclusive recruitment, encourage diversity and provide tips to help companies move in this direction. Implement some documentation suggesting good recruitement practices for companies. For instance : Writing inclusive job offers with neutral language, offer flexibility at the workplace. avoid stressful recruiting process for neurodivergent individuals etc..
+
+- Allow matching with more under-represented groups: We want to enable people with disabilities or neurodivergences to access job opportunities. The website will be adapted to comply with web accessibility standards such as WCAG (Web Content Accessibility Guidelines).
+
+- Finetune the matching algorithm: With real data we will be able monitor and track performances of the model and continuously improve it to ensure its sustainability.
 
 # Resources 
 
