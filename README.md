@@ -11,7 +11,7 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
 
 - [Problem Statement](#problem-statement)
 - [Opportunity](#opportunity)
-- [Combat Biais](#combat-biais!)
+- [Combat Biais](#combat-biais)
 - [Contributors](#contributors)
 - [Tech Stack](#tech-stack)
 - [Files Structure](#files-structure)
@@ -38,7 +38,7 @@ Despite the rising numbers of qualified individuals from underrepresented backgr
 
 By joining forces with non-profit organizations championing the cause of diversifying the tech talent pool, SHIFT offers an unique opportunity. It aims to streamline the recruitment process for both companies and prospective employees by creating an exclusive platform tailored for this niche.
 
-# Combat Biais ! 
+# Combat Biais
 
 ## Data Science 
 
