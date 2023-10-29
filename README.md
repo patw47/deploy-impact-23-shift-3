@@ -11,7 +11,7 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
 
 - [Problem Statement](#problem-statement)
 - [Opportunity](#opportunity)
-- [Combat Biais](#combat-biais)
+- [Combat Biais](#combat-biais-!)
 - [Contributors](#contributors)
 - [Tech Stack](#tech-stack)
 - [Files Structure](#files-structure)
@@ -20,7 +20,7 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
   - [Testing](#testing)
   - [Deployment](#deployement)
   - [UI/UX](#ui/ux)
-- [Backend](#backend)
+- [Backend](#backend-api)
   - [Getting Started](#getting-started)
   - [Setup the CI/CD](#setup-the-CI/CD)
   - [Files and notable features](#files-and-notable-features)
@@ -42,7 +42,7 @@ By joining forces with non-profit organizations championing the cause of diversi
 
 ## Data Science 
 
-Our Matching algorithm combines different methods (Explained in details in the [backend](#backend) section).
+Our Matching algorithm combines different methods (Explained in details in the [backend](#backend-api) section).
 
 The concept is based on extracting the soft and hard skills entered by the candidate, which are then directly compared with the soft and hard skills requested in the job offer. 
 We then perform a semantic comparison of the free text of the candidate's profile (Values, experience) with the text of the job advert.
