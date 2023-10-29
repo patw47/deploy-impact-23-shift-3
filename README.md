@@ -11,7 +11,7 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
 
 - [Problem Statement](#problem-statement)
 - [Opportunity](#opportunity)
-- [Combat Biais](#combat-biais-!)
+- [Combat Biais](#combat-biais!)
 - [Contributors](#contributors)
 - [Tech Stack](#tech-stack)
 - [Files Structure](#files-structure)
