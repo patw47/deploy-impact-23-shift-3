@@ -12,6 +12,8 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
 - [Problem Statement](#problem-statement)
 - [Opportunity](#opportunity)
 - [Combat Biais](#combat-biais)
+  - [Data Science Solution](#data-science-solution)
+  - [Frontend Solution](#frontend-solution)
 - [Contributors](#contributors)
 - [Tech Stack](#tech-stack)
 - [Files Structure](#files-structure)
@@ -40,7 +42,7 @@ By joining forces with non-profit organizations championing the cause of diversi
 
 # Combat Biais
 
-## Data Science 
+## Data Science Solution
 
 Our Matching algorithm combines different methods (Explained in details in the [backend](#backend-api) section).
 
@@ -55,7 +57,7 @@ Secondly, in an effort to promote under-represented groups, we have chosen to of
 
 The results are displayed in descending order, from the most important match (displayed as a percentage) to the least important.
 
-## UI/UX & frontend
+## Frontend Solution
 
 We have chosen to blur out information that could lead to bias, such as the profile photo or place of study, so that companies can appreciate the skills and values that are important to them when recruiting. 
 
