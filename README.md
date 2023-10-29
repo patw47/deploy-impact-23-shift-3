@@ -360,7 +360,7 @@ The following logical steps are used to clean the datasets:
 
 # Roadmap
 
-The future developments that we would like to implement : 
+After finishing prioritized Use Cases, here are the future developments that we would like to implement : 
 - More information for companies : Promote more inclusive recruitment, encourage diversity and provide tips to help companies move in this direction. Implement some documentation suggesting good recruitement practices for companies. For instance : Writing inclusive job offers with neutral language, offer flexibility at the workplace. avoid stressful recruiting process for neurodivergent individuals etc..
 
 - Allow matching with more under-represented groups: We want to enable people with disabilities or neurodivergences to access job opportunities. The website will be adapted to comply with web accessibility standards such as WCAG (Web Content Accessibility Guidelines).
