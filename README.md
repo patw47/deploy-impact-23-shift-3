@@ -16,7 +16,6 @@ SHIFT is a pioneering initiative in collaboration between women++ and Powercoder
 - [Tech Stack](#tech-stack)
 - [Files Structure](#files-structure)
 - [Frontend](#frontend)
-  - [Project Description](#project-description)
   - [How to Use](#how-to-use)
   - [Testing](#testing)
   - [Deployment](#deployement)
@@ -52,7 +51,7 @@ Finally, we average the scores obtained when comparing the texts with the follow
 - 20% hard skills
 - 60% free text
 
-Secondly, in an effort to promote under-represented groups, we have chosen to systematically include in the top 10 results people who describe themselves as female or gender-neutral, as well as people of immigrant background.  
+Secondly, in an effort to promote under-represented groups, we have chosen to offer the possibility to include in the top 10 results people who describe themselves as female or gender-neutral, as well as people of immigrant background. This is what we called "Balanced Matching".
 
 The results are displayed in descending order, from the most important match (displayed as a percentage) to the least important.
 
@@ -100,10 +99,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-nex
 
 To learn more:[Next.js documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 [Customizing Material UI](https://mui.com/material-ui/customization/how-to-customize/) - approaches to customizing Material UI.
-
-## Project Description
-
-[Include a brief description of your project here.]
 
 ## How to Use
 
@@ -188,44 +183,42 @@ This Figma Prototype is designed to showcase the flows that have been designed. 
 
 ### How to Use
 1. **Access the Prototype**: 
-You can interact with the prototype at the following link: 
-https://www.figma.com/proto/qzRo0T1FIRIp2FkBZtXKey/SHIFT-UI?page-id=0%3A1&type=design&node-id=65-514&viewport=817%2C-4082%2C0.16&t=vVdNABqel4mhStHB-1&scaling=min-zoom&starting-point-node-id=65%3A514&show-proto-sidebar=1&mode=design
+You can interact with the prototype at the following link: [Figma](https://www.figma.com/proto/qzRo0T1FIRIp2FkBZtXKey/SHIFT-UI?page-id=0%3A1&type=design&node-id=65-514&viewport=817%2C-4082%2C0.16&t=vVdNABqel4mhStHB-1&scaling=min-zoom&starting-point-node-id=65%3A514&show-proto-sidebar=1&mode=design)
    
 2. **Navigate Through the Prototype**: 
 You have a left bar and a top bar. 
 1.	The left bar will help you to move through each designed flow. They are organized by:
-⁃	A. Login
-⁃	B. Company
-⁃	C. Candidate
-⁃	D. Association
+- A. Login
+- B. Company
+- C. Candidate
+- D. Association
 2.	The top bar gives you the option of how to preview the screen. Please go to Options > Fit width.
 3.	To go to the next flow, select the next title in the left bar.
 4.	If you want to go back again and restart the whole flow, press “R”.
 
 3. **Feedback and Comments**: 
-⁃	You must be logged into Figma to comment. 
-⁃	By typing or pressing “C” you can comment anything you want to highlight or give us feedback. 
-⁃	The comments will remain in the file unless you click "Resolve" in the right bar that appears after you add a comment.
+- You must be logged into Figma to comment. 
+- By typing or pressing “C” you can comment anything you want to highlight or give us feedback. 
+- The comments will remain in the file unless you click "Resolve" in the right bar that appears after you add a comment.
 
 
 ### Prototype Structure
 As it is listed in the left pane. The prototype is organized by the following flows:
-⁃	A. Login (general sign-in and log-in flow)
-⁃	B. Company - Candidate list
-⁃	B. Company - Setup Profile
-⁃	B. Company - Job post 
-⁃	B. Company - Job list section
-⁃	B. Company - Candidate list
-⁃	C. Candidate - Setup profile 
-⁃	C. Candidate - Job list
-⁃	D. Association - Invite candidates
+- A. Login (general sign-in and log-in flow)
+- B. Company - Candidate list
+- B. Company - Setup Profile
+- B. Company - Job post 
+- B. Company - Job list section
+- B. Company - Candidate list
+- C. Candidate - Setup profile 
+- C. Candidate - Job list
+- D. Association - Invite candidates
 
 
 ### Key Features
 Not every button or interaction is prototyped. Therefore, we have added some videos in the file to have the full explanation. By clicking on the screen, you can see hints highlighted in blue of what is clickable.
 
-You can see here in the following link the recorded videos with each flow designed:
-https://drive.google.com/drive/folders/1TGAIahEZZUoSioJJA6W8hqKnIHvJiBja?usp=drive_link
+You can see here in the following link the recorded videos with each flow designed: [Videos](https://drive.google.com/drive/folders/1TGAIahEZZUoSioJJA6W8hqKnIHvJiBja?usp=drive_link)
 
 
 ### Contact Information
@@ -234,7 +227,6 @@ dianaalkampos@gmail.com
 
 ### Licensing
 There is no restriction to interact with the prototype, all tho this is an excuse example for the Deploy(impact) 2023 program.
-
 
 # Backend API 
 
