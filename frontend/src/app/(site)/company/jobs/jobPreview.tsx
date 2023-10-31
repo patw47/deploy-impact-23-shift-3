@@ -38,7 +38,6 @@ export const JobPreview: React.FC<JobPreviewInterface> = ({
     event.preventDefault();
     router.replace(`/company/candidates/?jobId=${jobId}`);
   };
-  console.log(jobPost);
   return (
     <>
       <Stack
@@ -144,7 +143,6 @@ export const JobPreview: React.FC<JobPreviewInterface> = ({
                 width: 172,
                 height: 172,
                 borderRadius: "50%",
-                background: "red",
                 backgroundSize: "cover",
               }}
             />
@@ -260,7 +258,8 @@ export const JobPreview: React.FC<JobPreviewInterface> = ({
                     marginLeft: 1,
                   }}
                 >
-                  Start date: 08/01/2024
+                  Start date:{" "}
+                  {new Date(jobPost.last_day_to_apply).toLocaleDateString()}
                 </Typography>
               </Box>
             </CardContent>
